@@ -80,7 +80,7 @@ while True:
     filename = command_input[len("touch "):]
     try:
       with open(filename, 'a'):
-        pass # Just open and close to create or update timestamp
+        pass
       print(f"File '{filename}' touched.")
     except Exception as e:
       print(f"touch: An error occurred: {e}")
