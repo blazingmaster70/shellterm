@@ -6,7 +6,7 @@ import pathlib
 
 print("ShellTerm Terminal")
 print(f"Time run: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-print("1.0.0")
+print("1.0.1")
 
 
 def human_size(size):
